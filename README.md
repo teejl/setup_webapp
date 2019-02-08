@@ -28,5 +28,6 @@ Then go to the following link in your web browser of choice: [localhost:8000](lo
 Next we want to connect django to the apache server, so we can setup our own website and connect from any computer via the web.
 ```shell
 sudo apt-get install apache2 # install apache2
-sudo apt-get install libapache2-mod-wsgi # install libapache2-mod-wsgi
+sudo apt-get install apache2-dev # install apache2-dev
+sudo python3 -m pip install mod_wsgi # install mod_wsgi
 ```
