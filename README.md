@@ -22,4 +22,4 @@ cd {project name} # enter project directory
 tree # show project tree
 sudo python3 manage.py runserver # run the server
 ```
-Then go to the following link in your web browser of choice: [localhost:8000]: localhost:8000
+Then go to the following link in your web browser of choice: [localhost:8000](localhost:8000)
