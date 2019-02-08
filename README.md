@@ -15,7 +15,7 @@ python3 -m django --version # check django version
 django-admin # check django admin commands
 sudo django-admin startproject {project name} # start a project with specified name
 ```
-## Verify the server works
+## Verify the server works locally
 Now we want to make sure we can run and connect to the server.
 ```shell
 cd {project name} # enter project directory
@@ -23,3 +23,10 @@ tree # show project tree
 sudo python3 manage.py runserver # run the server
 ```
 Then go to the following link in your web browser of choice: [localhost:8000](localhost:8000)
+
+## Connect the Server to Apache (Optional)
+Next we want to connect django to the apache server, so we can setup our own website and connect from any computer via the web.
+```shell
+sudo apt-get install apache2 # install apache2
+sudo apt-get install libapache2-mod-wsgi # install libapache2-mod-wsgi
+```
