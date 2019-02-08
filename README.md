@@ -15,3 +15,10 @@ python3 -m django --version # check django version
 django-admin # check django admin commands
 sudo django-admin startproject {project name} # start a project with specified name
 ```
+## Verify the server works
+Now we want to make sure we can run and connect to the server.
+```shell
+cd {project name} # enter project directory
+tree # show project tree
+python3 manage.py runserver # run the server
+```
