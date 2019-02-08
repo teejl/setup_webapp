@@ -20,5 +20,5 @@ Now we want to make sure we can run and connect to the server.
 ```shell
 cd {project name} # enter project directory
 tree # show project tree
-python3 manage.py runserver # run the server
+sudo python3 manage.py runserver # run the server
 ```
